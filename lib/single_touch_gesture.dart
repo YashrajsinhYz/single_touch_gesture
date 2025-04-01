@@ -1,5 +1,2 @@
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/single_pointer_recognizer.dart';
+export 'src/single_touch_widget.dart';
