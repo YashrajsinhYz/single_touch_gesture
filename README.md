@@ -32,67 +32,7 @@ flutter pub get
 
 ## 📖 **Usage**
 
-### **Basic Example**
-Wrap any widget inside **`SingleTouchGestureWidget`** to enable single-touch behavior:
-
-```dart
-import 'package:flutter/material.dart';
-import 'package:single_touch_gesture/single_touch_gesture.dart';
-
-void main() {
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(title: const Text('Single Touch Gesture Example')),
-        body: Center(
-          child: SingleTouchGestureWidget(
-            child: Dismissible(
-              key: const Key('dismiss'),
-              onDismissed: (_) {},
-              background: Container(color: Colors.red),
-              child: Container(
-                padding: const EdgeInsets.all(16),
-                color: Colors.blue,
-                child: const Text(
-                  'Swipe me, but only one touch at a time!',
-                  style: TextStyle(color: Colors.white),
-                ),
-              ),
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-}
-```
-
----
-
-## ⚙ **API Reference**
-
-### **SingleTouchGestureWidget**
-Wraps child widgets to prevent multiple touches.
-
-```dart
-const SingleTouchGestureWidget({required Widget child});
-```
-
-### **SingleTouchRecognizer**
-Custom gesture recognizer that allows only one pointer at a time.
-
-```dart
-class SingleTouchRecognizer extends OneSequenceGestureRecognizer {
-  // Internal logic for handling single-touch gestures.
-}
-```
+To see how to use **`single_touch_gesture`**, check out the [example folder](https://github.com/YashrajsinhYz/single_touch_gesture/tree/main/example) in the repository.
 
 ---
 
