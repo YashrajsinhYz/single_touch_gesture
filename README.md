@@ -3,6 +3,7 @@
 
 [![pub package](https://img.shields.io/pub/v/single_touch_gesture.svg)](https://pub.dev/packages/single_touch_gesture)  
 [![GitHub stars](https://img.shields.io/github/stars/YashrajsinhYz/single_touch_gesture?style=social)](https://github.com/YashrajsinhYz/single_touch_gesture)
+![Publish](https://github.com/YashrajsinhYz/single_touch_gesture/actions/workflows/publish.yml/badge.svg)
 
 ## 📌 **Overview**
 **`single_touch_gesture`** is a Flutter package that ensures **only one pointer (touch event) is recognized at a time**. This helps prevent unwanted multi-touch interactions in widgets like **Dismissible, Checkbox, Sliders, and Buttons**.
