@@ -24,7 +24,7 @@ class SinglePointerRecognizer extends OneSequenceGestureRecognizer {
 
   // A debug description of this recognizer, used for debugging purposes.
   @override
-  String get debugDescription => 'single pointer recognizer';
+  String get debugDescription => 'SinglePointerRecognizer';
 
   // This method is called when the recognizer stops tracking the last pointer.
   // No specific behavior is implemented here, but it can be overridden if needed.

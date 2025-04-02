@@ -20,7 +20,7 @@ Add the package to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  single_touch_gesture: ^0.0.1
+  single_touch_gesture: ^1.0.0
 ```
 Then, run:
 

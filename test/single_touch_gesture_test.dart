@@ -3,6 +3,9 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:single_touch_gesture/single_touch_gesture.dart';
 
 void main() {
+  // Ensure Flutter bindings are initialized for gesture testing.
+  TestWidgetsFlutterBinding.ensureInitialized();
+
   test('SinglePointerRecognizer should accept only one pointer at a time', () {
     final recognizer = SinglePointerRecognizer();
 

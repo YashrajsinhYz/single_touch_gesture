@@ -49,7 +49,10 @@ class _HomePageState extends State<HomePage> {
               style: ButtonStyle(
                   backgroundColor: WidgetStatePropertyAll(
                       Theme.of(context).colorScheme.inversePrimary)),
-              child: Text("Dismissible Example"),
+              child: Text(
+                "Dismissible Example",
+                style: TextStyle(color: Colors.black),
+              ),
               onPressed: () {
                 Navigator.of(context).push(MaterialPageRoute(
                   builder: (context) => DismissibleExample(),
@@ -60,7 +63,10 @@ class _HomePageState extends State<HomePage> {
               style: ButtonStyle(
                   backgroundColor: WidgetStatePropertyAll(
                       Theme.of(context).colorScheme.inversePrimary)),
-              child: Text("Checkbox Tile Example"),
+              child: Text(
+                "Checkbox Tile Example",
+                style: TextStyle(color: Colors.black),
+              ),
               onPressed: () {
                 Navigator.of(context).push(MaterialPageRoute(
                   builder: (context) => CheckBoxTileExample(),
