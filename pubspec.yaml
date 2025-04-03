@@ -1,6 +1,6 @@
 name: single_touch_gesture
 description: A Flutter package that prevents multiple gesture recognition, allowing only one touch at a time.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/YashrajsinhYz/single_touch_gesture
 repository: https://github.com/YashrajsinhYz/single_touch_gesture
 issue_tracker: https://github.com/YashrajsinhYz/single_touch_gesture/issues
