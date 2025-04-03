@@ -13,6 +13,30 @@
 ✅ Works seamlessly with Flutter's **GestureDetector** and **RawGestureDetector**.  
 ✅ Lightweight and easy to integrate.
 
+## 🎥 Demo
+
+### 📌 Dismissible Example
+🔹 **Left :** ❌ Without `single_touch_gesture` → Multiple touches cause unexpected behavior.  
+
+🔹 **Right :** ✅ With `single_touch_gesture` → Only one touch is registered at a time.
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><b>❌ Without `single_touch_gesture`</b></td>
+      <td align="center"><b>✅ With `single_touch_gesture`</b></td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://raw.githubusercontent.com/YashrajsinhYz/single_touch_gesture/main/assets/examples/without_single_touch_gesture_package.gif" width="200">
+      </td>
+      <td align="center">
+        <img src="https://raw.githubusercontent.com/YashrajsinhYz/single_touch_gesture/main/assets/examples/with_single_touch_gesture_package.gif" width="200">
+      </td>
+    </tr>
+  </table>
+</p>
+
 ---
 
 ## 🚀 **Installation**
